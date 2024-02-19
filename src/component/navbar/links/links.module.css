@@ -42,20 +42,6 @@
     opacity: .5;
 }
 
-/* .logout {
-    padding: 10px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 17.4px;
-    border-radius: 10px;
-    margin-right: 10px;
-    background: white;
-    transition:all 2s linear;
-}
-
-.logout:hover {
-    background: pink;
-} */
 
 .menuButton,
 .mobileLinks {
@@ -63,6 +49,10 @@
 }
 
 @media(max-width:768px) {
+    .container {
+        margin-left: 10px;
+    }
+
     .links {
         display: none;
     }
@@ -70,6 +60,7 @@
     .menuButton {
         display: block;
         cursor: pointer;
+        margin: 15px;
     }
 
     .mobileLinks {
