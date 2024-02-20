@@ -17,3 +17,12 @@
     font-weight: 800;
     font-size: 18px;
 }
+
+.returnLink {
+    text-align: center;
+}
+
+.link {
+    color: #207567;
+    font-size:19px;
+}
