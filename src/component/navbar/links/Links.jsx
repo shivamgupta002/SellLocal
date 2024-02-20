@@ -4,7 +4,6 @@ import styles from "./links.module.css";
 import NavLink from "./navLink/navLink";
 import Image from "next/image";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import MenuIcon from '@mui/icons-material/Menu';
 const links = [
   {
     title: "Home",
@@ -48,8 +47,7 @@ const Links = () => {
             <NavLink item={{ title: "login", path: "/login" }} />
           )}
         </div>
-        <MenuIcon onClick={() => setOpen((prev) => !prev)}
-          className={styles.menuButton} />
+          <Image src="/menu.png" alt="hamburger" width={30} height={30} onClick={() => setOpen((prev) => !prev)} className={styles.menuButton} />
         {open && (
           <div className={styles.mobileLinks}>
             {links.map((link) => (
