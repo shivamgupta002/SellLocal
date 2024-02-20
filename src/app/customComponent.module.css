@@ -1,0 +1,19 @@
+.loadingDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 60vh;
+    position: relative;
+}
+
+.loading {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+}
+
+.loadingText {
+    text-align: center;
+    color: #193953;
+    font-weight: 800;
+    font-size: 18px;
+}
