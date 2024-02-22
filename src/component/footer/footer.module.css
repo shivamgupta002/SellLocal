@@ -1,0 +1,12 @@
+.container {
+    height: auto;
+    background: #000;
+    color: #fff;
+    margin-top: auto;
+}
+
+.column {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}

@@ -1,0 +1,28 @@
+.box {
+    width: 20%;
+    text-wrap: wrap;
+    margin: 10px;
+}
+
+.head {
+    font-weight: 800;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+.link {
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.singleLink {
+    transition: all 0.4s ease-in-out;
+}
+
+.singleLink:hover {
+    color: #265073;
+}

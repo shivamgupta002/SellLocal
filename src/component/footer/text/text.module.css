@@ -1,0 +1,21 @@
+.box {
+    /* border: 1px solid green; */
+    width: 20%;
+    text-wrap: wrap;
+    margin: 10px;
+}
+
+.head {
+    font-weight: 800;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+.text {
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
