@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <>
       <div className={styles.container}>
-        Hello from Hero Section
+        Products will be coming soon
       </div>
     </>
   );
