@@ -1,14 +1,14 @@
 .box {
-    /* border: 1px solid green; */
-    width: 20%;
-    text-wrap: wrap;
+    max-width: 20%;
     margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .head {
     font-weight: 800;
     font-size: 18px;
-    margin: 10px;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -16,6 +16,26 @@
     font-weight: 400;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 10px;
+}
+
+.text p {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    text-wrap: wrap;
+}
+
+@media (max-width: 867px) {
+    .box {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        max-width: 80%;
+    }
 }

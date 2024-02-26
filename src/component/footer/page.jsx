@@ -85,7 +85,7 @@ const Footer = () => {
           <Links itemHead="Account" links={account} />
           <Text itemHead="Quick Use" links={quickLink} />
         </div>
-        <div>@copy rights reserved 2024 by @Sell Local</div>
+        <div className={styles.center}>@Copyrights reserved 2024 by @Sell Local</div>
       </div>
     </>
   );
