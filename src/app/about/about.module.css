@@ -1,89 +1,37 @@
-/* .container {
+  .container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
   }
-  
-  .textContainer {
-    flex: 1; 
-    max-width: 600px; 
-    margin: 10px 20px;
-  }
-  
-  .textContainer h2 {
-    text-align: center;
-    margin: 10px 0;
-  }
-  
-  .textContainer p {
-    margin: 10px 0;
-    line-height: 25px;
-    font-size: 17px;
-  }
-  
-  .imgContainer {
-    position: relative;
-    flex: 1;
-  }
-  
-  .heroSection {
-    position: relative;
-    overflow: hidden;
-    height: 0;
-    padding-bottom: 100%; 
-  }
-  
-  .aboutTopImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .imageHover:hover {
-    transform: scale(1.1); 
-  }
-   */
 
-   .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-  
   .textContainer {
     flex: 1;
     max-width: 600px;
     margin: 10px 20px;
   }
-  
+
   .textContainer h2 {
     text-align: center;
     margin: 10px 0;
   }
-  
+
   .textContainer p {
     margin: 10px 0;
     line-height: 25px;
     font-size: 17px;
   }
-  
+
   .imgContainer {
     position: relative;
     flex: 1;
   }
-  
+
   .heroSection {
     position: relative;
     overflow: hidden;
     height: 0;
     padding-bottom: 100%;
   }
-  
+
   .aboutTopImage {
     position: absolute;
     top: 0;
@@ -92,30 +40,27 @@
     height: 100%;
     transition: transform 0.3s ease-in-out;
   }
-  
+
   .imageHover:hover {
     transform: scale(1.1);
   }
-  
+
   /* Media queries for responsiveness */
   @media screen and (max-width: 768px) {
     .container {
-      flex-direction: column;
-      align-items: center;
+      flex-direction: column-reverse;
     }
-  
+
     .imgContainer {
-      order: 1; /* Display image below text */
-      margin-top: 20px; /* Add some spacing between text and image */
+      margin-bottom: 10px;
     }
-  
+
     .textContainer {
-      max-width: 100%; /* Ensure text takes full width */
-      margin: 10px; /* Adjust margin for better spacing */
+      max-width: 100%;
+      margin: 10px;
     }
-  
+
     .textContainer h2 {
-      text-align: left; /* Align heading to the left on small devices */
+      text-align: left;
     }
   }
-  
