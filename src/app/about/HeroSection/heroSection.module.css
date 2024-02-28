@@ -28,8 +28,7 @@
 .heroSection {
   position: relative;
   overflow: hidden;
-  height: 0;
-  padding-bottom: 100%;
+  height: 450px;
 }
 
 .imageHover {
