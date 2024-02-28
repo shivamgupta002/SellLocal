@@ -5,7 +5,9 @@
     flex-direction: row;
     width: 100vw;
 }
-
+.margin{
+    margin-bottom: 2rem;
+}
 @media screen and (max-width:510px) {
     .box {
         flex-direction: column;
