@@ -1,6 +1,7 @@
 import styles from "./about.module.css";
 import HeroSection from "./HeroSection/HeroSection";
 import HeroBox from "./HeroBox/HeroBox";
+import AboutMe from "./AboutMe/AboutMe"
 // ------------ icons ----------------
 import StoreIcon from '@mui/icons-material/Store';
 import PaidIcon from '@mui/icons-material/Paid';
@@ -16,6 +17,9 @@ const About = () => {
         <HeroBox icon={PaidIcon} digit="33k" desc="Monthly Product Sale"/>
         <HeroBox icon={SupportAgentIcon} digit="45.5k" desc="Customer active in our site"/>
         <HeroBox icon={AccountBalanceWalletIcon} digit="25k" desc="Annual gross sale"/>
+      </div>
+      <div className="d-flex justify-content-center">
+      <AboutMe/>
       </div>
     </>
   );
