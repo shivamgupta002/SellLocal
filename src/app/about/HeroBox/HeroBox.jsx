@@ -4,7 +4,7 @@ const HeroBox = ({ icon: Icon, digit, desc }) => {
   return (
     <div className={styles.box}>
       <div className={styles.iconBox}>
-        <Icon className={styles.icon}/>
+        <Icon className={styles.icon} style={{ fontSize: 40 }}/>
       </div>
       <h2 className={styles.heading}>{digit}</h2>
       <p className={styles.desc}>{desc}</p>
