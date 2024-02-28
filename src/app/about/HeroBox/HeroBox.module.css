@@ -1,0 +1,54 @@
+.box {
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px 10px;
+    transition: all 0.5s ease-out;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box:hover {
+    background: red;
+    color: #fff;
+}
+
+.iconBox {
+    padding: 10px 0;
+}
+
+
+.icon {
+    border: 4px solid rgb(128, 128, 128);
+    border-radius: 50%;
+    font-size: 46px;
+    padding: 2px;
+}
+
+.box:hover .icon {
+    border: 4px solid white;
+    transition: all 0.5s ease-out;
+}
+
+.box:hover .heading,
+.box:hover .desc {
+    color: white;
+}
+
+.heading {
+    color: #0e0a0a;
+    font-weight: 800;
+    font-size: 20px;
+    /* text-align: center; */
+    transition: all 0.5s ease-out;
+}
+
+.desc {
+    color: #0e0a0a;
+    font-weight: 400;
+    transition: all 0.5s ease-out;
+}
