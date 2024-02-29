@@ -9,7 +9,7 @@ const AboutMe = () => {
     <>
       <div
         className="card"
-        style={{ width: "18rem", margin: "2rem", background: "#cfd2d5" }}
+        style={{ width: "20rem", margin: "2rem", background: "#cfd2d5" }}
       >
         <Image
           src="/Image/shivam.jpg"
