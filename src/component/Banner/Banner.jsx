@@ -1,4 +1,6 @@
-import { styled } from "@mui/material";
+"use client"
+import { styled } from "@mui/material/styles"; // Make sure to import from '@mui/material/styles'
+
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 
