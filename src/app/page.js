@@ -1,11 +1,9 @@
 import styles from "./page.module.css";
-import HeroSection from "../component/heroSection/HeroSection";
-// import Navbar from "../component/navbar/Navbar.jsx";
-
+import Banner from "@/component/Banner/Banner";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <HeroSection />
+      <Banner />
     </main>
   );
 }
