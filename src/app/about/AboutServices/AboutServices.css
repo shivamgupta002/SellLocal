@@ -1,13 +1,9 @@
 .box {
     border-radius: 10px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 10px;
-    padding: 5px 10px;
+    width: 20rem;
+    height: 8rem;
+    margin: 10px 0;
+    padding: 10px;
     -webkit-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
@@ -15,15 +11,15 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .box:hover {
@@ -74,7 +70,10 @@
 }
 
 @media screen and (max-width:510px) {
-    .icon {
-        font-size: 40px;
+    .box {
+        width: 20rem;
+        height: 8rem;
+        margin: 10px 0;
+        padding: 10px;
     }
 }

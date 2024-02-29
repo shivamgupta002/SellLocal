@@ -12,16 +12,15 @@ const AboutMe = () => {
         style={{ width: "18rem", margin: "2rem", background: "#cfd2d5" }}
       >
         <Image
-          src="/Image/shivamPic.png"
+          src="/Image/shivam.jpg"
           className="card-img-top"
           alt="my_image"
           width={150}
-          height={320}
+          height={350}
           background={"#cfd2d5"}
-          //   styles={{ background: "#cfd2d5 !important" }}
         />
-        <div className="card-body" style={{background: "#fff"}}>
-          <h4 className="card-title font-weight-bold text-center">
+        <div className="card-body" style={{ background: "#fff" }}>
+          <h4 className="card-title text-center" style={{fontWeight:"800"}}>
             Shivam Gupta
           </h4>
           <p className="card-text text-center">Founder of SellLocal</p>
