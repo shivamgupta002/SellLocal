@@ -20,7 +20,7 @@ const supportLink = [
   },
   {
     id: 2,
-    title: "20shivamgupta02@gmail.com",
+    title: "selllocal24@gmail.com",
   },
   {
     id: 3,
