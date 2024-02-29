@@ -9,16 +9,24 @@ const AboutMe = () => {
     <>
       <div
         className="card"
-        style={{ width: "20rem", margin: "2rem", background: "#cfd2d5" }}
+        style={{ width: "19rem", margin: "2rem", background: "#cfd2d5" }}
       >
         <Image
-          src="/Image/shivam.jpg"
+          src="/Image/shivamPic.png"
           className="card-img-top"
           alt="my_image"
           width={150}
           height={350}
           background={"#cfd2d5"}
         />
+        {/* <Image
+          src="/Image/shivam.jpg"
+          className="card-img-top"
+          alt="my_image"
+          width={150}
+          height={350}
+          background={"#cfd2d5"}
+        /> */}
         <div className="card-body" style={{ background: "#fff" }}>
           <h4 className="card-title text-center" style={{fontWeight:"800"}}>
             Shivam Gupta

@@ -12,7 +12,12 @@ import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import AssuredWorkloadIcon from "@mui/icons-material/AssuredWorkload";
 import AboutServices from "./AboutServices/AboutServices";
-
+// title add
+export const metadata = {
+  title: "About-Sell Local",
+  description:
+    "About Sell LocalServices - we sell product in cheap price from other e-commerce platforms and about its founder,its services",
+};
 const About = () => {
   return (
     <>
@@ -31,7 +36,7 @@ const About = () => {
           />
           <HeroBox icon={PaidIcon} digit="33k" desc="Monthly Product Sale" />
           <HeroBox
-            icon={SupportAgentIcon}
+            icon={CoPresentIcon}
             digit="45.5k"
             desc="Customer active in our site"
           />
