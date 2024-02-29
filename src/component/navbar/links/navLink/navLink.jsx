@@ -2,7 +2,7 @@
 import Link from "next/link";
 import styles from "./navLink.module.css";
 import { usePathname } from "next/navigation";
-const NavLink = ({ item }) => {
+const NavLink = ({ item, setOpen }) => {
   const pathName = usePathname();
   return (
     <>
@@ -12,6 +12,7 @@ const NavLink = ({ item }) => {
         className={`${styles.container} ${
           pathName === item.path && styles.active
         }`}
+        onClick={() => setOpen((prev) => !prev)}
       >
         {item.title}
       </Link>
